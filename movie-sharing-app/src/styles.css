@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Style global */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f8fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style de l'en-tête */
+  header {
+    background-color: #1976d2;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style du titre de l'en-tête */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Style du formulaire d'ajout de film */
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #4b0505;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style des champs de formulaire */
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b3091f;
+    border-radius: 4px;
+  }
+  
+  /* Style du bouton d'ajout de film */
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1976d2;
+    color: #130202;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style des cartes de film */
+  .movie-card {
+    background-color: #0e0101;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style du titre de film */
+  .movie-card h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Style de la description de film */
+  .movie-card p {
+    margin: 0;
+    color: #630606;
+  }
